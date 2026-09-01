@@ -1,5 +1,5 @@
 {
-  "name": "Game inc",
+  "name": "NewFw2026",
   "tree": {
     "$className": "DataModel",
 
@@ -10,8 +10,8 @@
       "Packages": {
         "$path": "Packages"
       },
-       "Classes": {
-        "$path": "src/classes"
+      "Classes": {
+        "$path": "src/Classes"
       },
       "Controllers": {
         "$path": "src/Controllers"
