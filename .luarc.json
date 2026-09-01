@@ -1,0 +1,5 @@
+{
+  "workspace.library": ["Packages"],
+  "diagnostics.globals": ["game", "workspace", "script", "Instance", "Vector3", "CFrame"],
+  "runtime.version": "LuaU"
+}

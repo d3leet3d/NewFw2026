@@ -1,0 +1,42 @@
+{
+  "name": "Game inc",
+  "tree": {
+    "$className": "DataModel",
+
+    "ReplicatedStorage": {
+      "Shared": {
+        "$path": "src/shared"
+      },
+      "Packages": {
+        "$path": "Packages"
+      },
+       "Classes": {
+        "$path": "src/classes"
+      },
+      "Controllers": {
+        "$path": "src/Controllers"
+      }
+    },
+
+    "ServerScriptService": {
+      "Server": {
+        "$path": "src/server"
+      },
+      "ServerPackages": {
+        "$path": "ServerPackages"
+      },
+      "Services": {
+        "$path": "src/Services"
+      }
+    },
+
+    "StarterPlayer": {
+      "StarterPlayerScripts": {
+        "Client": {
+          "$path": "src/client"
+        }
+      }
+    }
+
+  }
+}
