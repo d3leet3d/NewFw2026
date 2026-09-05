@@ -38,7 +38,7 @@ ReplicaController.OnEvent("RemoveLeaf", function(PlayerReplica: ReplicaTypes.Rep
 	end
 end)
 
-ReplicaController.OnEvent("LeavesSpawned", function(PlayerReplica: ReplicaTypes.Replica, Amount)
+ReplicaController.OnEvent("LeavesSpawned", function(PlayerReplica: ReplicaTypes.Replica, Amount : number)
 	for i, v: Types.SpawnPartData in PlayerReplica.Data.LeavesInGame do
 		local Part = Assets:WaitForChild("Leaf"):Clone()
 		Part.Name = v.Name

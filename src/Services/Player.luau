@@ -9,7 +9,6 @@ WiredEvents.OnEvent("OnPlayerDataLoaded", function(Player : Player,PlayerReplica
     local Char = Player.Character or Player.CharacterAdded:Wait()
     task.wait()
     Char:Destroy()
-
 end)
 -- WiredEvents.OnEvent("OnPlayerRemoving", OnPlayerRemoving)
 
